@@ -1,0 +1,40 @@
+name: todo
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+# Dependencies specify other packages that your package needs in order to work.
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  cupertino_icons: ^1.0.8
+  flutter_slidable: ^3.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.13
+  flutter_launcher_icons: ^0.14.1
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section:
+  assets:
+    - assets/notes.jpg
+
+flutter_icons:
+  android: true # Enable for Android
+  ios: true # Enable for iOS
+  adaptive_icon_background: "#ffffff" # Background color for adaptive icons
+  adaptive_icon_foreground: "assets/notes.jpg"
